@@ -66,7 +66,6 @@ while(1):
     iteration_flag = 1
 
     if len(btc_values) >= 2:
-        #print("Previous BTC Value is : ", btc_values[-2], "$")
         if btc_values[-1] > btc_values[-2]:
             print("if you hold BTC I suggest you sell it")
         else:
